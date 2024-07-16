@@ -22,6 +22,7 @@
                 </div>
             </el-header>
             <el-main style="">
+
                 <div style="width:930px;height:70px;background-color:rgb(240,242,245);margin:60px 25px 0px 295px"
                     class="button_container">
                     <button class="button_box" style="background-color: white;width:83px;height:40px">找视频</button>
@@ -32,6 +33,7 @@
                         style="background-color: white;width:180px;height:40px">用作品找up主必看</button>
                 </div>
                 <div style=" width:1375px; height:1100px;background-color:rgb(255,255,255);margin:0px 25px 25px 290px">
+                    <button>"good"</button>
                 </div>
             </el-main>
         </el-container>
@@ -45,17 +47,14 @@ import my_aside from '../components/my_aside.vue'
 export default {
     components: {
         my_aside,
-
     },
     data() {
         return {
             index1_data: ['>50W', '>100W', '>150W', '>200W', '>250W', '>300W', '>350W', '>400W', '>450W', '>500W'],
             index2_data: ["粉丝量", "点赞量", "播放量"],
-
         }
-
     },
-    name: "home" // 设置当前组件的名称为 GOGO
+    name: "partition" // 设置当前组件的名称为 GOGO
 };
 </script>
 <style scoped>

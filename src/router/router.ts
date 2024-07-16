@@ -6,7 +6,7 @@ import {
 } from "vue-router";
 import GOGO from "../views/upsearch_views.vue";
 import Home from "../views/home.vue";
-
+import partition from "../views/partition.vue";
 const routes = [
   {
     path: "/",
@@ -15,6 +15,10 @@ const routes = [
   {
     path: "/up_info",
     component: GOGO,
+  },
+  {
+    path: "/partition",
+    component: partition,
   },
 ];
 

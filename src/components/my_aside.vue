@@ -12,6 +12,7 @@
                     <template #title>UP</template>
                     <router-link to="/"><el-menu-item index="1-1">首页</el-menu-item></router-link>
                     <router-link to="/up_info"><el-menu-item index="1-2">UP主信息查询</el-menu-item></router-link>
+                    <router-link to="/partition"><el-menu-item index="1-3">分区数据</el-menu-item></router-link>
                 </el-menu-item-group>
                 <el-menu-item-group title="Group 2">
                     <el-menu-item index="1-3">Option 3</el-menu-item>

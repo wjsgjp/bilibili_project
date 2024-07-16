@@ -19,11 +19,11 @@ body {
 }
 
 :root {
-  --el-color-primary-light-2: #66b1ff;
+  --el-color-primary-light-8: #66b1ff;
   --el-color-primary-light-3: #3375b9;
   --el-color-primary-light-5: #2a598a;
   --el-color-primary-light-7: #213d5b;
-  --el-color-primary-light-8: #1d3043;
+  --el-color-primary-light-2: #1d3043;
   --el-color-primary-light-9: #18222c;
   --el-text-color-primary: rgb(8, 7, 7);
 }
