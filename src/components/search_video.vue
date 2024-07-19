@@ -168,10 +168,7 @@ export default{
     background-color: var(--el-color-primary-light-8);
 }
 
-//.margintop {
-//
-//    margin-top: 20px;
-//}
+
 
 .check_box {
     display: flex;
