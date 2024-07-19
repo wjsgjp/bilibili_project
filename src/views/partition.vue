@@ -33,7 +33,7 @@
                         style="background-color: white;width:180px;height:40px">用作品找up主必看</button>
                 </div>
                 <div style=" width:1375px; height:1100px;background-color:rgb(255,255,255);margin:0px 25px 25px 290px">
-                    <button>"good"</button>
+                    <data_shower></data_shower>
                 </div>
             </el-main>
         </el-container>
@@ -44,9 +44,11 @@
 <script>
 import { Setting } from '@element-plus/icons';
 import my_aside from '../components/my_aside.vue'
+import data_shower from '../components/data_analyse.vue'
 export default {
     components: {
         my_aside,
+        data_shower
     },
     data() {
         return {
