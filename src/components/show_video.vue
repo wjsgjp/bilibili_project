@@ -161,7 +161,7 @@
             <template #title>
                 生成弹幕词云
             </template>
-            <el-image src="videoInfo.pic" @error="err">
+            <el-image :src="require('../assets/logo.png')" @error="err">
             </el-image>
         </el-collapse-item>
     </el-collapse>

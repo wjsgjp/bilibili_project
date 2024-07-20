@@ -76,7 +76,7 @@ export default{
                 else if (selectedOption.value === 'Up主')
                     params.uname = videoInput;
                 else if (selectedOption.value === '视频标题')
-                    params.titel = videoInput;
+                    params.title = videoInput;
 
                 if (selectedRankParam === 'view')
                     params.view=true
